@@ -14,7 +14,6 @@ import { Provider } from "react-redux"; //access to all the application to reduc
 
 export default class App extends React.Component {
   render() {
-    //AsyncStorage.removeItem('listCurrency');
     const RootStack = createStackNavigator(
       {
         Splash: Splash,
@@ -23,7 +22,6 @@ export default class App extends React.Component {
       },
       {
         initialRouteName: "Splash"
-        /* The header config from HomeScreen is now here */
       }
     );
 
