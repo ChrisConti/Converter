@@ -1,1 +1,9 @@
-npm install --save react-navigation
+#converter
+
+----- React Native -----
+
+React native application, money converter.
+
+Use of React native and Redux.
+Persistance with Redux.
+Free API (REST) to get the up to date change of currencies.
